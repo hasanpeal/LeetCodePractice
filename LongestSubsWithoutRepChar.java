@@ -15,6 +15,8 @@ public class LongestSubsWithoutRepChar {
                 set.add(s.charAt(right));
                 max = Math.max(max, set.size());
                 right++;
+
+                
             } else {
                 set.remove(s.charAt(left));
                 left++;
