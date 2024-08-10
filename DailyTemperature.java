@@ -8,6 +8,7 @@ class Solution {
                 int index = stack.pop();
                 res[index] = i - index;
             }
+            
             stack.push(i);
         }
         return res;
