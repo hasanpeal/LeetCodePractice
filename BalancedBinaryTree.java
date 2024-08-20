@@ -17,6 +17,7 @@ class Solution {
     private int getHeight(TreeNode node) {
         if (node == null) {
             return 0; // The height of an empty subtree is 0
+            
         }
         return Math.max(getHeight(node.left), getHeight(node.right)) + 1;
     }
