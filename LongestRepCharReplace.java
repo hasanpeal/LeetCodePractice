@@ -9,6 +9,7 @@ class Solution {
             while(right - left + 1 - maxCount > k){
                 ch[s.charAt(left) - 'A']--;
                 left++;
+                
             };
             res = Math.max(res, right - left + 1);
             right++;
