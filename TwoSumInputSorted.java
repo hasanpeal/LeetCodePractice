@@ -8,6 +8,7 @@ public class TwoSumInputSorted {
         for(int i = 0; i < numbers.length; i++) {
             map.put(numbers[i], i);
         }
+        
 
         for(int i = 0; i < numbers.length; i++){
             if(map.containsKey(target-numbers[i])){
