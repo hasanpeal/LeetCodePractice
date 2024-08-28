@@ -11,7 +11,9 @@ public class BestTimeToBuySellStock {
             if(profit <= 0){
                 slowPointer = fastPointer;
                 fastPointer++;
-            } else fastPointer++;
+            } else {
+                fastPointer++;
+            }
         }
         if(maxProfit <= 0) maxProfit = 0;
         return maxProfit;
