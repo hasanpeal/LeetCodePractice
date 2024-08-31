@@ -18,7 +18,6 @@ public class GroupAnagram {
                 map.get(str).add(strs[i]);
             }
         }
-
         List<List<String>> result = new ArrayList<>();
         for (List<String> list : map.values()) {
             result.add(list);
