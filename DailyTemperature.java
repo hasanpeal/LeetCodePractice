@@ -5,7 +5,6 @@ class Solution {
         int[] res = new int[temperatures.length];
 
         for(int i = 0; i < temperatures.length; i++){
-            
             while(!stack.empty() && temperatures[i] > temperatures[stack.peek()]){
                 
                 int index = stack.pop();
