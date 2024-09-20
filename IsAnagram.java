@@ -5,7 +5,6 @@ class IsAnagram {
         if(s.length() != t.length()) return false;
         HashMap <Character, Integer> map = new HashMap<>();
         HashMap <Character, Integer> map2 = new HashMap<>();
-
         for(int i = 0; i < s.length(); i++){
             map.put(s.charAt(i), map.getOrDefault(s.charAt(i), 0) + 1);
         }
