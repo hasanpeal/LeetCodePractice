@@ -3,6 +3,7 @@ class Solution {
         if (root == null) {
             return true; // An empty tree is balanced
         }
+        
         int leftHeight = getHeight(root.left);
         int rightHeight = getHeight(root.right);
         
