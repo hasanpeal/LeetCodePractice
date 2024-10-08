@@ -7,6 +7,7 @@ public class BestTimeToBuySellStock {
 
         while(fastPointer < prices.length){
             profit = prices[fastPointer] - prices[slowPointer];
+            
             maxProfit = Math.max(profit, maxProfit);
             if(profit <= 0){
                 slowPointer = fastPointer;
