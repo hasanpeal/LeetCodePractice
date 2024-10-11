@@ -4,9 +4,13 @@ public class ValidPalindrome {
         StringBuilder str = new StringBuilder();
 
         for(int i = 0; i < temp.length(); i++){
+            
             char curr = temp.charAt(i);
+            
             if((curr >= 48 && curr <= 57) || (curr >= 97 && curr <= 122)){
+                
                 str.append(curr);
+                
             }
         }
 
