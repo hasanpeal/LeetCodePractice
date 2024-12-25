@@ -9,6 +9,7 @@ public class GroupAnagram {
         HashMap<String, List<String>> map = new HashMap<>();
 
         for (int i = 0; i < strs.length; i++) {
+            
             char[] ch = strs[i].toCharArray();
             Arrays.sort(ch);
             String str = String.valueOf(ch);
