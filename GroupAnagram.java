@@ -11,8 +11,10 @@ public class GroupAnagram {
         for (int i = 0; i < strs.length; i++) {
             
             char[] ch = strs[i].toCharArray();
+            
             Arrays.sort(ch);
             String str = String.valueOf(ch);
+            
             if (map.containsKey(str)) {
                 map.get(str).add(strs[i]);
             } else {
